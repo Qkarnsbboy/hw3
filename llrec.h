@@ -84,7 +84,31 @@ Node* llfilter(Node* head, Comp pred)
     // Provide your implementation below
     //*********************************************
 
+    //1. if empty list
+    if(head == nullptr){
+        //basecase return null
+        return nullptr;
+    }
 
+    //2. recurse down the list
+    Node* val = llfilter(head->next, pred);
+
+    //3. check if node should be filtered
+    bool filter = pred(head->val);
+
+    //4. if kept
+    if(!filter){
+        //set next to valid node
+        head->next = val;
+        //return current valid address
+        return head;
+
+    }
+    else { //5. otherwise (filtered) delete and return next valid address
+        //next valid adress should be val
+        return val;
+        delete head;
+    }
 }
 
 #endif
