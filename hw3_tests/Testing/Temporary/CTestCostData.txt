@@ -1,0 +1,59 @@
+Pivot.Empty 1 1.46265
+Pivot.Size1SmallEmpty 1 1.59454
+Pivot.Size1LargeEmpty 1 1.47908
+Pivot.Size2SmallLarge 1 1.51103
+Pivot.Size2LargeSmall 1 1.50668
+Pivot.Size3LargeSmallLarge 1 1.46027
+Pivot.Size3SmallLargeSmall 1 1.45481
+Pivot.Size3LargeLargeSmall 1 1.4272
+Pivot.Size6SmallThenLarge 1 1.44754
+Pivot.Size6LargeThenSmall 1 1.46121
+Pivot.Nominal 1 1.46537
+Pivot.SameValues 1 1.4319
+Pivot.NoCopySameNodeCheck 1 1.51617
+Filter.EmptyList 1 1.4297
+Filter.Size1_F 0 0
+Filter.Size1_nF 1 1.4689
+Filter.Size2_F_nF 0 0
+Filter.Size2_nF_F 0 0
+Filter.Size3_nF_F_nF 0 0
+Filter.Size3_F_nF_F 0 0
+Filter.SameNodeCheck 0 0
+Filter.MultipleCalls 0 0
+Filter.CompareWithLlrec 0 0
+Stack.BasicString 1 1.47629
+Stack.RandomInt 1 2.97507
+HeapTest.ConstructionDestruction 1 1.49064
+HeapTest.InitiallyEmpty 1 1.4461
+HeapTest.EmptyTopException 1 1.54347
+HeapTest.EmptyPopException 1 1.63316
+HeapTest.SingleItemNonempty 1 1.46952
+HeapTest.SingleItemPush 1 1.42759
+HeapTest.SingleItemPushPop 1 1.46868
+HeapTest.TwoElementPush_LowPriFirst 1 1.49382
+HeapTest.TwoElementPush_HighPriFirst 1 1.47522
+HeapTest.Duplicates 1 1.50222
+HeapTest.NegativeElements 1 1.60712
+HeapTest.ThreeElementPush_0_5_10 1 1.54448
+HeapTest.ThreeElementPush_0_10_5 1 1.49926
+HeapTest.ThreeElementPush_5_0_10 1 1.4803
+HeapTest.ThreeElementPush_5_10_0 1 1.4818
+HeapTest.ThreeElementPush_10_0_5 1 1.47111
+HeapTest.ThreeElementPush_10_5_0 1 1.44745
+HeapTest.GreaterComparator 1 1.47767
+HeapTest.StringStorage 1 1.44535
+HeapTest.FiveElementPush_TrinaryHeap 1 1.44923
+HeapTest.SixElementPush_QuaternaryHeap 1 1.45693
+HeapStress.50x50RandomElements_BinaryHeap 1 1.67805
+HeapStress.50x50RandomElements_QuaternaryHeap 1 1.75726
+HeapStress.50x50RandomElements_DodecenaryHeap 1 1.65054
+HeapStress.2x2000RandomElements_Binary 1 1.72971
+---
+Filter.Size1_F
+Filter.Size2_F_nF
+Filter.Size2_nF_F
+Filter.Size3_nF_F_nF
+Filter.Size3_F_nF_F
+Filter.SameNodeCheck
+Filter.MultipleCalls
+Filter.CompareWithLlrec
