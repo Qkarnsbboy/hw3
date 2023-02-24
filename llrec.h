@@ -108,7 +108,6 @@ Node* llfilter(Node* head, Comp pred)
         //next valid adress should be val
         return val;
         delete head;
-        head = null;
     }
 }
 
