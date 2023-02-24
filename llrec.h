@@ -84,6 +84,30 @@ Node* llfilter(Node* head, Comp pred)
     // Provide your implementation below
     //*********************************************
 
+    // //1.emptylist
+    // if(head == nullptr){
+    //     return head;
+    // }
+
+    // //2. check if node should be filtered
+    // if(pred(head->val) == true){
+    //     //recurse down node if filtered
+    //     Node* node = head->next;
+
+    //     //delete previous head
+    //     delete head;
+    //     //make sure its clean
+    //     head == nullptr;
+
+    //     //recurse down
+    //     return llfilter(node, pred);
+    // }
+
+    // Node* node = llfilter(head->next, pred);
+    // head->next = node;
+    // return head;
+
+//_________________________________________
     //1. if empty list
     if(head == nullptr){
         //basecase return null
@@ -106,8 +130,9 @@ Node* llfilter(Node* head, Comp pred)
     }
     else { //5. otherwise (filtered) delete and return next valid address
         //next valid adress should be val
-        return val;
         delete head;
+        return val;
+        
     }
 }
 
